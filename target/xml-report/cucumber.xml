@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="19.929" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="US_008 Patients should make appointment after logged in" name="US_008_TC_001 When user click on Make an Appointment section First Name, Last Name, SSN, Email boxes should have been filled automatically. - Example #1.1" time="19.697">
+<system-out><![CDATA[
+Given user is on "medunna_url" page.........................................passed
+When click on user icon.....................................................passed
+And click on Sign In option.................................................passed
+And enter "PatientJohn" in username input...................................passed
+And enter "12345Pp9$*" in password input....................................passed
+And click on Remember Me check box..........................................passed
+And click on Sign In submit button..........................................passed
+When click on MyPages.......................................................passed
+And click on Make an Appointment............................................passed
+Then verify that "Patient", "John", "456-58-9637" , "patientjohn@gmail.com" boxes are filled automatically.passed
+Then close the application..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
